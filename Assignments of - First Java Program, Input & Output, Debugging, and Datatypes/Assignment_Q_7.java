@@ -7,11 +7,11 @@ public class Assignment_Q_7 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        int i =0,  n;
+        int i =0;
         int firstnum=0;  //firstnum is the 1 number (0) in the fibonacci series
         int secondnum=1; //secondtnum is the 2 number (1) in the fibonacci series
         System.out.println("Enter the nth value: ");
-        n = input.nextInt();
+        int n = input.nextInt(); // just assign it here it's global anyway
 
         while (i <=n) {
             System.out.println(i+ " ");
@@ -20,23 +20,6 @@ public class Assignment_Q_7 {
             i = firstnum+secondnum;
 
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }
