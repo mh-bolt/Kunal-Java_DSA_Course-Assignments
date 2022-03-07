@@ -32,10 +32,7 @@ public class Assignment_Q_4 {
         }
         System.out.println("The result is " + result);
 
-
-
-
-
-
     }
 }
+
+// This is very well done.
